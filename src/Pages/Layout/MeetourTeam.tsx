@@ -2,7 +2,7 @@ import { FaFacebook, FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa"
 import styled from "styled-components"
 import finbarr from "../../assets/finbarr1.jpg"
 import johnbosco from "../../assets/john.jpg"
-import Eva from "../../assets/Eva.jpg"
+import preshpics from "../../assets/myprofile.jpg"
 
 const MeetourTeam = () => {
   return (
@@ -74,18 +74,28 @@ const MeetourTeam = () => {
                 </Card>
                 <Card>
                     <Circle>
-                    <img src={Eva} alt="loading..." />
+                    <img src={preshpics} alt="loading..." />
                     </Circle>
-                    <h1 style={{fontSize:"22px"}}>Nnadi Evaristus</h1>
-                    <span style={{fontSize:"20px"}}>Project Manager</span>
-                    <LogoHolder style={{width:"100px"}}>
+                    <h1 style={{fontSize:"22px"}}>Preshydev</h1>
+                    <span>Full Stack (MERN) Developer</span>
+                    <LogoHolder>
                     <Circle1>
-                    <a href="https://www.facebook.com/profile.php?id=100089064367103&mibextid=LQQJ4d">
+                    <a href="https://github.com/Joan-mentor">
+                    <FaGithub size={20}/>
+                    </a>
+                    </Circle1>
+                    <Circle1>
+                    <a href="https://www.facebook.com/profile.php?id=100075086300782&mibextid=ZbWKwL">
                     <FaFacebook size={20}/>
                     </a>
                     </Circle1>
                     <Circle1>
-                    <a href="https://wa.me/2349123289362">
+                    <a href="https://www.linkedin.com/in/amarachi-ezeorah-7b3bb8244?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                    <FaLinkedin size={20}/>
+                    </a>
+                    </Circle1>
+                    <Circle1>
+                    <a href="https://wa.me/2348080965602">
                     <FaWhatsapp size={20}/>
                     </a>
                     </Circle1>
